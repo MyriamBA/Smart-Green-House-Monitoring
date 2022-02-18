@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatButtonModule} from '@angular/material/button';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ComponentsRoutes } from './component.routing';
@@ -20,8 +22,10 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { DocumentsComponent } from './documents/documents.component';
 import { ListPlantsComponent } from './listplants/listplants.component';
 import { CalendarComponent } from './calendar/calendar.component';
+import {MatTabsModule} from '@angular/material/tabs';
 
 
+import {MatCardModule} from '@angular/material/card';
 
 
 @NgModule({
@@ -30,6 +34,11 @@ import { CalendarComponent } from './calendar/calendar.component';
     RouterModule.forChild(ComponentsRoutes),
     FormsModule,
     ReactiveFormsModule,
+    MatButtonModule,
+    MatGridListModule,
+    MatCardModule,
+    MatTabsModule,
+
     NgbModule,
   ],
   declarations: [
@@ -40,8 +49,10 @@ import { CalendarComponent } from './calendar/calendar.component';
     ButtonsComponent,
     CardsComponent,
     TaskBoardComponent,
+    
     NotesComponent,
     CalendarComponent,
+  
     ToDoListComponent,
     ContactsComponent,
     DocumentsComponent,

@@ -1,0 +1,15 @@
+mat-grid-tile {
+    background: rgb(194, 235, 170);
+  }
+
+.title {
+   text-align: center;
+
+}
+.mat-tab-group {
+    margin-bottom: 48px;
+  }
+
+  .example-card {
+    max-width: 400px;
+  }

@@ -8,6 +8,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { Routes, RouterModule } from '@angular/router';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
@@ -42,6 +43,7 @@ const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
   ],
   imports: [
     CommonModule,
+    MatGridListModule,
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
