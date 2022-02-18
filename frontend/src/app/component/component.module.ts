@@ -20,6 +20,9 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { DocumentsComponent } from './documents/documents.component';
 import { ListPlantsComponent } from './listplants/listplants.component';
 import { CalendarComponent } from './calendar/calendar.component';
+import { NotesListComponent } from './Notes/notes-list/notes-list.component';
+import { NotesCardComponent } from './Notes/notes-card/notes-card.component';
+import { NotesDetailsComponent } from './Notes/notes-details/notes-details.component';
 
 
 
@@ -46,7 +49,10 @@ import { CalendarComponent } from './calendar/calendar.component';
     ContactsComponent,
     DocumentsComponent,
     ListPlantsComponent,
-    TableComponent
+    TableComponent,
+    NotesListComponent,
+    NotesCardComponent,
+    NotesDetailsComponent
   ]
 })
 export class ComponentsModule { }
