@@ -1,1 +1,41 @@
-<h1>HI arij ?</h1>
+
+<div class="layout-box">
+    <div class="top-bar">
+      <h1>ToDo List</h1>
+    </div>
+</div>
+
+
+<br>
+<div class="add-button">
+    <div class="input-group">
+
+    <input type="text" placeholder="Enter your new task" #task>
+    <button type="button" class="btn btn-warning" (click)="addTask(task.value)">ADD New Task</button>
+    </div>
+</div>
+
+<br><br>
+
+<br><br><hr>
+<table >
+    <tr>
+        <th> Description </th>
+        <th> Etat </th>
+        <th> Supprimer </th>
+    </tr>
+    
+    <tbody *ngFor="let item of list">
+        <tr>
+       
+            <td >{{item.name}}</td>
+            <td>Not DONE YET </td>
+            <td><button type="button" class="btn btn-danger" (click)="removeTask(item.id)">Remove</button></td>
+        
+        </tr>
+    </tbody>
+        
+
+</table>
+
+

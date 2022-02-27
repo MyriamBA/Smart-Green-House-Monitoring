@@ -16,7 +16,7 @@
           <button
             type="button"
             *ngFor="let buttondata of buttonsdata"
-            class="btn btn-{{ buttondata.btn }}"
+            class="btn btn-{{ buttondata }}"
           >
             {{ buttondata.btn }}
           </button>
@@ -41,7 +41,7 @@
           <button
             type="button"
             *ngFor="let buttondata of buttonsdata"
-            class="btn btn-outline-{{ buttondata.btn }}"
+            class="btn btn-outline-{{ buttondata }}"
           >
             {{ buttondata.btn }}
           </button>
@@ -66,9 +66,9 @@
           <button
             type="button"
             *ngFor="let buttondata of buttonsdata"
-            class="btn btn-rounded btn-{{ buttondata.btn }}"
+            class="btn btn-rounded btn-{{ buttondata }}"
           >
-            {{ buttondata.btn }}
+            {{ buttondata }}
           </button>
         </div>
       </div>

@@ -20,37 +20,55 @@ export const TopSelling: Product[] = [
         image: 'assets/images/users/user1.jpg',
         uname: 'Hanna Gover',
         gmail: 'hgover@gmail.com',
-        productName: 'Flexy React',
+        productName: 'Flowers',
         status: 'danger',
-        weeks: 35,
-        budget: '95K'
+        weeks: 35544675,
+        budget: 'California'
     },
     {
         image: 'assets/images/users/user2.jpg',
-        uname: 'Hanna Gover',
-        gmail: 'hgover@gmail.com',
-        productName: 'Landing pro React',
-        status: 'info',
-        weeks: 35,
-        budget: '95K'
+        uname: 'Danial Bere',
+        gmail: 'Danial@gmail.com',
+        productName: 'Tree',
+        status: 'danger',
+        weeks: 409875432,
+        budget: 'Munisch'
     },
     {
         image: 'assets/images/users/user3.jpg',
-        uname: 'Hanna Gover',
-        gmail: 'hgover@gmail.com',
-        productName: 'Elite React	',
-        status: 'warning',
-        weeks: 35,
-        budget: '95K'
+        uname: 'Emily Beek',
+        gmail: 'Emilyr@gmail.com',
+        productName: 'Tulip Flowers	',
+        status: 'success',
+        weeks: 98765432,
+        budget: 'Paris'
     },
     {
         image: 'assets/images/users/user4.jpg',
-        uname: 'Hanna Gover',
-        gmail: 'hgover@gmail.com',
-        productName: 'Ample React',
+        uname: 'Jhan Gover',
+        gmail: 'Jhanr@gmail.com',
+        productName: 'Tree',
         status: 'success',
-        weeks: 35,
-        budget: '95K'
+        weeks: 87654321,
+        budget: 'Tunis'
+    },
+    {
+        image: 'assets/images/users/user2.jpg',
+        uname: 'Eve Bere',
+        gmail: 'Eve@gmail.com',
+        productName: 'Tree',
+        status: 'danger',
+        weeks: 769875432,
+        budget: 'Munisch'
+    },
+    {
+        image: 'assets/images/users/user1.jpg',
+        uname: 'Anna Buicker',
+        gmail: 'Anna@gmail.com',
+        productName: 'Red Flowers',
+        status: 'success',
+        weeks: 35544675,
+        budget: 'Paris'
     },
 
 ]

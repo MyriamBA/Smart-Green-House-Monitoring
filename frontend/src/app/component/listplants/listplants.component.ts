@@ -3,10 +3,11 @@ import { Component } from '@angular/core';
 
 @Component({
     templateUrl: './listplants.component.html',
-        //styleUrls: ['./listplants.component.css']  add for css 
+     styleUrls: ['./listplants.component.css']     
 
 })
-export class ListPlantsComponent {
+export class listplantsComponent {
+        title ='Plants Manager';
 
 }
 

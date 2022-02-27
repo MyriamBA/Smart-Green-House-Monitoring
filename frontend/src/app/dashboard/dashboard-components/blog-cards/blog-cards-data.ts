@@ -8,28 +8,28 @@ export interface blogcard {
 export const blogcards: blogcard[] = [
 
     {
-        title: 'This is simple blog',
-        subtitle: '2 comments, 1 Like',
-        subtext: 'This is a wider card with supporting text below as a natural lead-in to additional content.',
-        image: 'assets/images/bg/bg1.jpg'
+        title: 'Flowers in your Greenhouse',
+        subtitle: 'Overview of the production of flowers',
+        subtext: 'This is a description & a conclusion of the impact of your Greenhouse on the production of the fFowers.',
+        image: 'assets/images/bg/warm.PNG'
     },
     {
-        title: 'This is simple blog',
-        subtitle: '2 comments, 1 Like',
-        subtext: 'This is a wider card with supporting text below as a natural lead-in to additional content.',
-        image: 'assets/images/bg/bg2.jpg'
+        title: ' Temperature of Greenhouse',
+        subtitle: 'Temperautre of the Greenhouse in real time',
+        subtext: 'This allowes you to  view the acutual Temperatura given by the sensors of the temperature in your Greenhouse.',
+        image: 'assets/images/bg/warm2.PNG'
     },
     {
-        title: 'This is simple blog',
-        subtitle: '2 comments, 1 Like',
-        subtext: 'This is a wider card with supporting text below as a natural lead-in to additional content.',
-        image: 'assets/images/bg/bg3.jpg'
+        title: 'Sonsers in Greenhouse ',
+        subtitle: 'Overview of Sonsers ',
+        subtext: 'Take a quick look how your sensors are doing in your Smart GreenHouse. Definitely, these make it Smart.',
+        image: 'assets/images/bg/warm3.PNG'
     },
     {
-        title: 'This is simple blog',
-        subtitle: '2 comments, 1 Like',
-        subtext: 'This is a wider card with supporting text below as a natural lead-in to additional content.',
-        image: 'assets/images/bg/bg4.jpg'
+        title: 'Water in Greenhouse',
+        subtitle: 'Overview of the needs in Greenhouse',
+        subtext: 'This is a global description & statics recommanded for better watering your plants in your Greenhouse.',
+        image: 'assets/images/bg/water.PNG '
     },
 
 ] 

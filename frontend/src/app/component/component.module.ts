@@ -2,8 +2,6 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import {MatGridListModule} from '@angular/material/grid-list';
-import {MatButtonModule} from '@angular/material/button';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ComponentsRoutes } from './component.routing';
@@ -16,16 +14,23 @@ import { CardsComponent } from './card/card.component';
 import { TableComponent } from "./table/table.component";
 import { NotesComponent } from './Notes/notes.component';
 import { TaskBoardComponent } from './taskboard/taskboard.component';
+import {HttpClientModule} from '@angular/common/http';
 
 import { ToDoListComponent } from './todolist/todolist.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { DocumentsComponent } from './documents/documents.component';
-import { ListPlantsComponent } from './listplants/listplants.component';
-import { CalendarComponent } from './calendar/calendar.component';
-import {MatTabsModule} from '@angular/material/tabs';
+import { NotesListComponent } from './Notes/notes-list/notes-list.component';
+import { NotesCardComponent } from './Notes/notes-card/notes-card.component';
+import { NotesDetailsComponent } from './Notes/notes-details/notes-details.component';
+
+import { listplantsComponent } from './listplants/listplants.component';
+
+import { PlantListComponent } from './listplants/plantlist/plantlist.component';
+//import { PlantDetailsComponent } from './listplants/plant-details/plant-details.component'; 
+import { CreatePlantComponent } from './listplants/create-plant/create-plant.component'; 
+//import { UpdatePlantComponent  } from './listplants//update-plant/update-plant.component'; 
 
 
-import {MatCardModule} from '@angular/material/card';
 
 
 @NgModule({
@@ -34,11 +39,7 @@ import {MatCardModule} from '@angular/material/card';
     RouterModule.forChild(ComponentsRoutes),
     FormsModule,
     ReactiveFormsModule,
-    MatButtonModule,
-    MatGridListModule,
-    MatCardModule,
-    MatTabsModule,
-
+    HttpClientModule,
     NgbModule,
   ],
   declarations: [
@@ -47,17 +48,22 @@ import {MatCardModule} from '@angular/material/card';
     NgbdDropdownBasicComponent,
     NgbdnavBasicComponent,
     ButtonsComponent,
+    CreatePlantComponent,
     CardsComponent,
     TaskBoardComponent,
-    
     NotesComponent,
-    CalendarComponent,
-  
     ToDoListComponent,
     ContactsComponent,
     DocumentsComponent,
-    ListPlantsComponent,
-    TableComponent
+    listplantsComponent,
+    TableComponent,
+    PlantListComponent,
+    NotesListComponent,
+    //PlantDetailsComponent,
+    NotesCardComponent,
+    //CreatePlantComponent,
+    //UpdatePlantComponent,
+    NotesDetailsComponent
   ]
 })
 export class ComponentsModule { }

@@ -1,1 +1,46 @@
-<h1>hiii riri !!</h1>
+<div class="layout-box">
+  <div class="top-bar">
+    <h1>Notes</h1>
+  </div>
+  <div class="page-content">
+  
+  </div>
+</div>
+
+<div class="columns is-gapless">
+  <div class="column">
+    <div class="main-container">
+      <div class="search-bar-container">
+        <div class="field">
+          <p class="control has-icons-left">
+            <input class="input" type="text" (keyup)="filter($any($event.target).value)" placeholder="Search">
+            <span class="icon is-small is-left">
+              <i class="fas fa-search"></i>
+            </span>
+          </p>
+        </div>
+      </div>
+    
+      <div class="notes-list" [@listAnim]>
+      
+        <app-notes-card 
+        *ngFor="let note of filteredNotes; index as i"
+        [link]="'i'"
+        (delete)="deleteNote(i)"
+        [title]=" note.title" 
+        [body]="note.body"></app-notes-card>
+  
+      </div>   
+    </div>
+  </div>
+
+  <div class="col">
+    <app-notes-details>
+    </app-notes-details>
+  </div>
+</div>
+
+
+
+
+  

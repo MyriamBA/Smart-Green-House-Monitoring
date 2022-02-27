@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+
+h1{
+  margin-top: 20px;
+  margin-left: 400px;
+  font-weight: 10;
+  color: green;
+}
+
+.add-button  input{
+  font-size: 16px;  
+  border-radius: 5%;
+  outline: none;
+  color: black;
+  margin-left: 460px;
+  background-color: inherit;
+  font-family: inherit;
+  text-align: center;
+}
+table
+{
+
+    
+    table-layout: fixed;
+width: 100%;
+}
+
+td,tr,th 
+{
+    border: 1px solid black;
+    padding: 10px;
+   text-align: center;
+}
+#done{
+  text-align: 0;
+}

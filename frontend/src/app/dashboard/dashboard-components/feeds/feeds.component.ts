@@ -6,6 +6,7 @@ import { Feeds,Feed } from './feeds-data';
   templateUrl: './feeds.component.html'
 })
 export class FeedsComponent implements OnInit {
+  
 
   feeds:Feed[];
 

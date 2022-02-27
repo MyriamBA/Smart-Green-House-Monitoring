@@ -1,6 +1,7 @@
-import { Routes } from '@angular/router';
 import { NgbdpaginationBasicComponent } from './pagination/pagination.component';
 import { NgbdAlertBasicComponent } from './alert/alert.component';
+import { Routes, RouterModule } from "@angular/router";
+import { NgModule } from '@angular/core';
 
 import { NgbdDropdownBasicComponent } from './dropdown-collapse/dropdown-collapse.component';
 import { NgbdnavBasicComponent } from './nav/nav.component';
@@ -13,9 +14,7 @@ import { TaskBoardComponent } from './taskboard/taskboard.component';
 import { ToDoListComponent } from './todolist/todolist.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { DocumentsComponent } from './documents/documents.component';
-import { ListPlantsComponent } from './listplants/listplants.component';
-import { CalendarComponent } from './calendar/calendar.component';
-
+import { listplantsComponent } from './listplants/listplants.component';
 
 
 export const ComponentsRoutes: Routes = [
@@ -76,12 +75,14 @@ export const ComponentsRoutes: Routes = [
 			},
 			{
 				path: 'listplants',
-				component: ListPlantsComponent
+				component: listplantsComponent
 			},
-			{
-				path: 'calendar',
-				component: CalendarComponent
-			}
+			
+		
+		
+			
+			
+		
 		]
 		
 	}

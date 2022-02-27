@@ -1,0 +1,39 @@
+<p>Plant-list works!</p>
+<div class="panel panel-primary">
+    <div class="panel-heading">
+    <h2>Plant List</h2>
+    </div>
+    <div class="panel-body">
+    <table class="table table-striped">
+    <thead>
+    <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>.Type</th>
+    <th>Cin</th>
+    <th>Location</th>
+    <th>Stock</th>
+    <th>Status</th>
+    </tr>
+    </thead>
+    <tbody >
+    <tr *ngFor="let plant of plants  | async">
+    <td>{{plant.id}}</td>
+    <td>{{plant.Name}}</td>
+    <td>{{plant.Type}}</td>
+    <td>{{plant.Location}}</td>
+    <td>{{plant.Stock}}</td>
+    <td>{{plant.Status}}</td>
+    <td>
+      <!---- <button (click)="deletePlant(account.id)" class="btn btn-danger">Delete</button>
+        <button (click)="PlantDetails(account.id)" class="btn btn-info" style="margin-left: 10px">Details</button>
+        <button (click)="updatePlant(account.id)" class="btn btn-warning" style="margin-left: 10px">Update</button>-->
+
+        
+    </td>
+    </tr>
+    </tbody>
+    </table>
+     
+    </div>
+    </div>

@@ -1,1 +1,34 @@
-<h1>hi marwa !</h1>
+<!--<app-plantlist>
+</app-plantlist>-->
+
+
+<nav class="navbar navbar-expand-sm bg-success navbar-dark">
+    <!-- Links -->
+    <ul class="navbar-nav">
+    <li class="nav-item">
+    <a routerLink="plants" class="nav-link" >Plant List</a>
+    
+    </li>
+    <li class="nav-item">
+    <a routerLink="add" class="nav-link" >Add Plant</a>
+    </li>
+   
+    </ul>
+    </nav>
+    <div class="container">
+    <br>
+    <h2 style="text-align: center;">{{title}}</h2>
+    <hr>
+    <div class="card">
+    <div class="card-body">
+    <router-outlet><app-plantlist>
+    </app-plantlist>
+</router-outlet>
+<app-create-plant></app-create-plant>
+
+    </div>
+    </div>
+    </div>
+    
+    <footer class="footer">
+    </footer>
